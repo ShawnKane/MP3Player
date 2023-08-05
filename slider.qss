@@ -1,0 +1,19 @@
+QSlider::handle:horizontal {
+    background: #AD80E4;
+    border-radius:5px;
+    width: 10px;
+    height: 22px;
+    margin-top: -8px; /* Змініть значення, щоб розмістити handle посередині groove */
+    margin-bottom: -8px; /* Змініть значення, щоб розмістити handle посередині groove */
+    border-radius: 5px;
+}
+QSlider::groove:horizontal {
+    border: none;
+    height: 5px;
+    width: 100px;
+    border: 1px solid #AD80E4;
+    background: #FFF;
+}
+QSlider::sub-page:horizontal {
+background: #AD50E4;
+}
